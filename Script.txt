@@ -1,0 +1,16 @@
+#1 create Env 
+
+virtualenv env
+
+#2 activate myenv
+myenv\Scripts\activate
+
+#go to running dir
+cd Final-Project-main\Final Code
+
+# install requirements
+pip install -r requirements.txt
+
+# run program 
+python app.py
+
